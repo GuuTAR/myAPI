@@ -7,5 +7,18 @@
     {
         "id": 2,
         "desc": "Do exercise!"
+    }],
+    "token" : [
+    {
+        "id": 1,
+        "asset": "Aave Token",
+        "apy": "0.05%",
+        "wallet": "0 AAVE"
+    },
+    {
+        "id": 2,
+        "asset": "Basic Attention",
+        "apy": "0.22%",
+        "wallet": "0 BAT"
     }]
 }
