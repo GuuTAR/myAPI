@@ -14,3 +14,12 @@ jobs:
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
+  run_main2:
+    runs-on: ubuntu-latest
+    name: Sends custom message2
+    steps:
+      - name: Sending message
+        uses: nhevia/discord-styled-releases@main
+        with:
+          webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
+          webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
